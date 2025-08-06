@@ -1,0 +1,20 @@
+﻿@{
+    tenantName = "clesonans"
+    licenseCode = "8855000-000124-652D"
+    licenseEndDate = "2025/3/31 23:59:59"
+    # 下記は触らなくてOK
+    tenantExt = ""
+    rdsEndpoint = "production-aurora-postgres.cluster-c5nj8oi70oij.ap-northeast-1.rds.amazonaws.com"
+    bastionHost = "ec2-52-199-72-142.ap-northeast-1.compute.amazonaws.com"
+    bastionUser = "Bastion"
+    privateKeyPath = ".\ssh\prod-AWS.ppk"
+    accontId = "599684606536"
+    sesEmail = "noreply@finaldocument.jp"
+    distributionId = "E28MQQHEINGAYH"
+    hostedZoneId = "Z011991831M89S7S170TS"
+    hostedZoneId_app = "Z025420219WHMGTJOIBT"
+    hostedZoneId_private = "Z05638662JCP6RT9CDJDH"
+    cloudfront_hostedZoneId = "ddjjuzlrhyx18.cloudfront.net."
+    alb_hostedZoneId = "dualstack.alb-finaldocument-jp-978150048.ap-northeast-1.elb.amazonaws.com."
+    lambda_alb_hostedZoneId = "dualstack.internal-alb-lambda-1985831294.ap-northeast-1.elb.amazonaws.com."
+}
